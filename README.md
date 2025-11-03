@@ -4,11 +4,10 @@ This repository contains all R scripts and metadata required to perform the pang
 
 To get this point, you'll need to use the scripts found in [LongBioinformatics](https://github.com/longg2/LongBioinformatics). Specifically, you'll need to use:
  * CoreSNPPhylogenetics.sh to create the phylogeny
+   * The number of constant sites prior to recombination masking was added as a parameter to IQTREE2. To achieve this, IQTREE2 was rerun with the additional parameter.
  * PoppunkAssigning.sh to update the PopPUNK database
  * ShovillWrapper.sh to create the genome assemblies, and
  * PanGenomeCreation.sh to create the pan-genome
-
-NOTE: The phylogenies used in this paper were created differently from that of the CoreSNPPhylogenetics.sh. We used the core SNP alignment, however, the number of constant sites prior to recombination masking was added as a parameter to IQTREE2.
 
 The PopPUNK database created for this paper can be found at [TpallidumLineages](https://github.com/Phylodynamics-and-AI-for-Public-health/TpallidumLineages).
 
